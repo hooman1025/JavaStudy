@@ -1,0 +1,25 @@
+package com.test.exam03;
+
+@FunctionalInterface
+interface MyLamdaFunction {
+	int sum(int a, int b);
+}
+
+
+@FunctionalInterface
+interface MyPrint {
+	String printLamda();
+}
+
+public class LamdaExam {
+	
+	public static void main(String[] args) {
+		
+		MyLamdaFunction lamdaFunction = (int a, int b) -> a+b; //익명함수
+		System.out.println(lamdaFunction.sum(3, 4));
+		
+		MyPrint myPrint = () -> "Hello World 1";
+		System.out.println(myPrint.printLamda());
+		
+	}
+}
