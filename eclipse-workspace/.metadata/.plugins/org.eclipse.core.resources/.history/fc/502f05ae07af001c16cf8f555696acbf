@@ -1,0 +1,8 @@
+package com.test.entity;
+
+public class Member {
+
+	private String userid;
+	private String username;
+	private int age;
+}

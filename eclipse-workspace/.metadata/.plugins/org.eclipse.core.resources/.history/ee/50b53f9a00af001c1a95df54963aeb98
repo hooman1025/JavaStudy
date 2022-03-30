@@ -1,0 +1,4 @@
+spring.datasource.dbcp2.driver-class-name=org.mariadb.jdbc.Driver
+spring.datasource.dbcp2.uri=jdbc:mariadb://127.0.0.1:3306/webdev
+spring.datasource.dbcp2.username=webmaster
+spring.datasource.dbcp2.password=root
